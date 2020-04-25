@@ -63,6 +63,7 @@ class MainActivity : AppCompatActivity() {
             this.currentOperator = null
             this.firstNumber = null
             this.lastNumber = null
+            Log.i("HolaAndroid", "error")
         }
     }
 
