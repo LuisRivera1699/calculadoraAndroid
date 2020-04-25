@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:paddingHorizontal="10dp">
+
+    <EditText
+        android:id="@+id/eteNumeros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_y="140dp"
+        android:text="0"
+        android:onClick="butOnClick"/>
+
+    <Button
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_x="199dp"
+        android:layout_y="545dp"
+        android:text="="
+        android:onClick="doOperation"/>
+
+    <Button
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_x="103dp"
+        android:layout_y="545dp"
+        android:text="0"
+        android:onClick="butOnClick"/>
+
+    <Button
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_x="199dp"
+        android:layout_y="440dp"
+        android:text="9"
+        android:onClick="butOnClick"/>
+
+    <Button
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_x="103dp"
+        android:layout_y="442dp"
+        android:text="8"
+        android:onClick="butOnClick"/>
+
+    <Button
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_x="10dp"
+        android:layout_y="443dp"
+        android:text="7"
+        android:onClick="butOnClick"/>
+
+    <Button
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_x="199dp"
+        android:layout_y="330dp"
+        android:text="6"
+        android:onClick="butOnClick"/>
+
+    <Button
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_x="103dp"
+        android:layout_y="332dp"
+        android:text="5"
+        android:onClick="butOnClick"/>
+
+    <Button
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_x="10dp"
+        android:layout_y="332dp"
+        android:text="4"
+        android:onClick="butOnClick"/>
+
+    <Button
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_x="199dp"
+        android:layout_y="221dp"
+        android:text="3"
+        android:onClick="butOnClick"/>
+
+    <Button
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_x="103dp"
+        android:layout_y="222dp"
+        android:text="2"
+        android:onClick="butOnClick"/>
+
+    <Button
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_x="10dp"
+        android:layout_y="222dp"
+        android:text="1"
+        android:onClick="butOnClick"/>
+
+    <Button
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_x="294dp"
+        android:layout_y="221dp"
+        android:text="+"
+        android:onClick="setOperator"/>
+
+    <Button
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_x="295dp"
+        android:layout_y="330dp"
+        android:text="-"
+        android:onClick="setOperator"/>
+
+    <Button
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_x="291dp"
+        android:layout_y="545dp"
+        android:text="/"
+        android:onClick="setOperator"/>
+
+    <Button
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_x="293dp"
+        android:layout_y="440dp"
+        android:text="*"
+        android:onClick="setOperator"/>
+
+    <Button
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_x="10dp"
+        android:layout_y="544dp"
+        android:text="C"
+        android:onClick="resetAll"/>
+
+</AbsoluteLayout>
