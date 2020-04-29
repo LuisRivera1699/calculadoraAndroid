@@ -1,23 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal">
 
     <Button
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight="2"
+        android:id="@+id/but1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
         android:text="BUT1" />
     <Button
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:text="BUT2" />
+        android:id="@+id/but2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUT2"
+        android:layout_alignTop="@id/but1"
+        android:layout_toLeftOf="@id/but1" />
     <Button
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:text="BUT3" />
+        android:id="@+id/but3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUT3"
+        android:layout_toLeftOf="@id/but1"
+        android:layout_above="@id/but2"/>
+    <Button
+        android:id="@+id/but4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUT4"
+        android:layout_toRightOf="@id/but1"
+        android:layout_above="@id/but2"/>
+    <Button
+        android:id="@+id/but5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUT5"
+        android:layout_toRightOf="@id/but1"
+        android:layout_below="@id/but4"/>
+    <Button
+        android:id="@+id/but6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUT6"
+        android:layout_toRightOf="@id/but1"
+        android:layout_below="@id/but5"/>
+    <Button
+        android:id="@+id/but7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUT7"
+        android:layout_toRightOf="@id/but1"
+        android:layout_below="@id/but6"/>
+    <Button
+        android:id="@+id/but8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUT8"
+        android:layout_toLeftOf="@id/but1"
+        android:layout_below="@id/but2"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUT9"
+        android:layout_toLeftOf="@id/but1"
+        android:layout_below="@id/but8"/>
 
-</LinearLayout>
+</RelativeLayout>
