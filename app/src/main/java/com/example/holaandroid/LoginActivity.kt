@@ -6,6 +6,7 @@ import android.util.Log
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
+import android.widget.Toast
 
 class LoginActivity : AppCompatActivity() {
 
@@ -23,6 +24,14 @@ class LoginActivity : AppCompatActivity() {
 
         butLogin!!.setOnClickListener{ view : View ->
             Log.i("LoginActivity", "Se hizo click")
+            val username = eteUsername!!.text
+            val password = etePassword!!.text
+
+            if (username.toString() == "android" && password.toString() == "password"){
+                Toast.makeText(this, "Login correcto", Toast.LENGTH_SHORT).show()
+            }else{
+                Toast.makeText(this, "Login incorrecto", Toast.LENGTH_SHORT).show()
+            }
         }
     }
 
